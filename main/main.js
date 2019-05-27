@@ -1,6 +1,6 @@
 // Write your cade below:
-module.exports = function main() {
-  var result,a,b;
+module.exports = function main(a,b) {
+  var result;
   result=a%b;
-  console.log(result);
+  return result;
 };
